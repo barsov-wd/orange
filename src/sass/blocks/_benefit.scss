@@ -1,0 +1,89 @@
+.benefit {
+    padding-top: 280px;
+    background: #efefef;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    &__bg {
+        position: absolute;
+        right: 0;
+        top: 120px;
+        z-index: 3;
+    }
+    &__title {
+        margin-bottom: 60px;
+    }
+    &__inner {
+        display: flex;
+        margin-left: 130px;
+    }
+    &__box {
+        position: relative;
+        width: 405px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 77px 41px;
+        text-align: center;
+    }
+    &__box--one {
+        position: relative;
+        min-height: 439px;
+        margin-top: 24px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 24px;
+            left: 31px;
+            width: 400px;
+            height: 440px;
+            background-color: #FFC34F;
+            border-radius: 10px;
+            z-index: -1;
+        }
+    }
+    &__box--two {
+        position: relative;
+        height: 415px;
+        margin-left: 70px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 24px;
+            right: 46px;
+            width: 384px;
+            height: 415px;
+            background-color: #FF8C0A;
+            border-radius: 10px;
+            z-index: -1;
+        }
+    }
+    &__box-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 25px;
+        &--color {
+            color: #FF8C0A;
+        }
+    }
+    &__box-descr {
+        font-family: 'Merriweather Regular', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        color: #313132;
+        margin-bottom: 15px;
+    }
+    &__box-text {
+        font-family: 'Merriweather Light', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        color: #313132;
+        &--orange {
+            font-family: 'Merriweather Black', sans-serif;
+            color: #FF8C0A;
+        }
+        &--bold {
+            font-family: 'Merriweather Black', sans-serif;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.advantages {
+    background-color: #efefef;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        max-width: 972px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    &__item {
+        border-right: 1px solid #FF8C0A;
+        padding: 5px 15px 5px 15px;
+        &:last-child {
+            border-right: none;
+        }
+    }
+    &__item-inner {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    &__item-descr {
+        font-size: 18px;
+        line-height: 22px;
+        font-family: 'Merriweather Light', sans-serif;
+    }
+}

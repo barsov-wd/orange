@@ -1,0 +1,28 @@
+.about {
+    padding-top: 122px;
+    background-color: #efefef;
+    &__subtitle {
+        margin-bottom: 60px;
+    }
+    &__inner {
+        width: 1190px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    &__inner-image {
+        margin-left: 20px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    &__inner-descr {
+        margin-left: 14px;
+        padding: 35px 0 35px 20px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #313132;
+        font-family: 'Merriweather Regular', sans-serif;
+        border-left: 1px solid #FF8C0A;
+    }
+}

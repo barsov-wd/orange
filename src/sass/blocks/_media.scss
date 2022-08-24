@@ -1,0 +1,1022 @@
+@media (max-width: 1750px) {
+    .promo {
+        &__bg-left {
+            width: 910px;
+        }
+        &__bg-right {
+            width: 830px;
+        }
+    }
+    .benefit {
+        &__bg {
+            width: 671px;
+            top: 140px;
+        }
+    }
+}
+
+@media (max-width: 1670px) {
+    .container {
+        max-width: 1580px;
+        width: 100%;
+    }
+    .promo {
+        &__image-absolute {
+            width: 900px;
+        }
+    }
+    .benefit {
+        &__bg {
+            width: 630px;
+            top: 150px;
+        }
+    }
+}
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1480px;
+        width: 100%;
+    }
+    .header {
+        &__menu-item {
+            font-size: 19px;
+        }
+    }
+    .promo {
+        min-height: 720px;
+        &__image-absolute,
+        &__bg-left {
+            width: 870px;
+        }
+        &__bg-right {
+            width: 780px;
+        }
+    }
+    .help {
+        &__inner-item {
+            width: 355px;
+        }
+    }
+    .quiz {
+        &__card {
+            width: 1376px;
+            &::before {
+                width: 1376px;
+            }
+        }
+    }
+    .benefit {
+        &__bg {
+            width: 530px;
+            top: 250px;
+        }
+    }
+    .faq {
+        &__items {
+            margin-left: 100px;
+        }
+    }
+    .conditions {
+        padding: 120px 0;
+    }
+}
+@media (max-width: 1500px) {
+    .container {
+        max-width: 1380px;
+        width: 100%;
+    }
+    .header {
+        &__menu-item {
+            font-size: 18px;
+        }
+        &__contacts-linkphone {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+    .promo {
+        min-height: 700px;
+        &__bg-right {
+            width: 660px;
+        }
+    }
+    .help {
+        &__inner-item {
+            width: 330px;
+        }
+    }
+    .quiz {
+        &__card {
+            padding: 80px 80px 0 0;
+            width: 1296px;
+            &::before {
+                width: 1296px;
+            }
+        }
+    }
+    .benefit {
+        padding-top: 180px;
+        &__bg {
+            z-index: -1;
+        }
+    }
+    .faq {
+        &__inner-image {
+            width: 480px;
+        }
+        &__items {
+            margin-left: 80px;
+        }
+    }
+    .reviews {
+        &__item-image {
+            width: 330px;
+        }
+    }
+}
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1280px;
+        width: 100%;
+    }
+    .header {
+        &__logo {
+            img {
+                width: 215px;
+            }
+        }
+        &__contacts-linkphone {
+            font-size: 22px;
+            line-height: 30px;
+        }
+    }
+    .promo {
+        min-height: 680px;
+        &__bg-right {
+            width: 620px;
+        }
+        &__bg-left,
+        &__bg-absolute {
+            width: 840px;
+        }
+        &__content-title {
+            font-size: 50px;
+            line-height: 58px;
+        }
+    }
+    .features {
+        padding-top: 110px;
+    }
+    .calc {
+        padding-top: 138px;
+        &__block {
+            max-width: 635px;
+            width: 100%;
+        }
+    }
+    .profit {
+        padding-top: 133px;
+        &__content {
+            max-width: 100%;
+            width: 100%;
+        }
+        &__content-image {
+            width: 600px;
+        }
+    }
+    .help {
+        padding-top: 110px;
+        &__inner-item {
+            width: 300px;
+        }
+    }
+    .about {
+        padding-top: 110px;
+    }
+    .application {
+        padding-top: 112px;
+        padding-bottom: 130px;
+    }
+    .quiz {
+        padding-top: 110px;
+        &__card {
+            padding: 80px 20px 0 0;
+            width: 1196px;
+            &::before {
+                width: 1196px;
+            }
+        }
+        &__card-title {
+            font-size: 48px;
+            line-height: 54px;
+        }
+        &__card-descr {
+            font-size: 26px;
+            line-height: 32px;
+        }
+    }
+    .faq {
+        padding-top: 140px;
+        &__items {
+            margin-left: 70px;
+        }
+        &__item {
+            width: 710px;
+        }
+    }
+    .reviews {
+        padding-top: 110px;
+        &__item-image {
+            width: 300px;
+        }
+    }
+    .conditions {
+        padding: 110px 0;
+    }
+    .footer {
+        &__logo {
+            width: 215px;
+        }
+        &__copy-text {
+            font-size: 13px;
+        }
+        &__menu-item {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+}
+@media (max-width: 1300px) {
+    .container {
+        max-width: 1170px;
+        width: 100%;
+    }
+    .top {
+        &__text {
+            font-size: 22px;
+            line-height: 26px;
+        }
+    }
+    .header {
+        &__logo {
+            img {
+                width: 270px;
+            }
+        }
+        &__contacts-linkphone {
+            font-size: 28px;
+            line-height: 34px;
+        }
+        &__menu {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            top: -100%;
+            right: 0;
+            width: 100%;
+            height: 50vh;
+            padding: 38px 60px 38px 20px;
+            background-color: #ffffff;
+            transition: 0.6s all;
+            z-index: 1000!important;
+
+            &_active {
+                top: 0;
+                z-index: 1000;
+            }
+        }
+        &__menu-item {
+            color: #000;
+            z-index: 1000;
+        }
+        &__mobile-inner {
+            display: flex;
+            align-items: center;
+        }
+        &__inner {
+            .humburger {
+                position: relative;
+                top: 0;
+                right: 0;
+                display: block;
+                width: 33px;
+                height: 27px;
+                cursor: pointer;
+                span {
+                    display: block;
+                    height: 3px;
+                    width: 100%;
+                    background-color: #FF8C0A;
+                    margin-bottom: 8px;
+                    transition: 0.5s all;
+                }
+                &_active {
+                    position: fixed;
+                    z-index: 1000;
+                    top: 20px;
+                    right: 20px;
+                    
+
+                    span {
+                        margin-bottom: -2px;
+
+                        &:nth-child(1) {
+                            transform: translateY(3px) rotate(-45deg);
+                            background-color: #000;
+                        }
+
+                        &:nth-child(2) {
+                            display: none;
+                        }
+
+                        &:nth-child(3) {
+                            transform: translateY(3px) rotate(45deg);
+                            background-color: #000;
+                        }
+                    }
+                }
+            }
+        }  
+        &__contacts {
+            margin-right: 70px;
+        }
+    }
+    .promo {
+        min-height: 655px;
+        &__bg-right {
+            width: 555px;
+        }
+        &__bg-absolute {
+            width: 840px;
+        }
+    }
+    .features {
+        padding-top: 105px;
+    }
+    .calc {
+        padding-top: 120px;
+        &__block {
+            max-width: 620px;
+            width: 100%;
+        }
+    }
+    .profit {
+        padding-top: 120px;
+        &__content-image {
+            width: 540px;
+        }
+    }
+    .help {
+        padding-top: 105px;
+        &__inner-item {
+            width: 275px;
+        }
+    }
+    .about {
+        padding-top: 105px;
+        &__inner {
+            width: 100%;
+        }
+        &__inner-image {
+            width: 150px;
+        }
+    }
+    .application {
+        padding-top: 105px;
+        padding-bottom: 120px;
+    }
+    .quiz {
+        padding-top: 105px;
+        &__card {
+            width: 1096px;
+            &::before {
+                width: 1096px;
+            }
+        }
+        &__card-right {
+            width: 550px;
+        }
+        &__card-title {
+            font-size: 44px;
+            line-height: 50px;
+        }
+        &__card-descr {
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+    .benefit {
+        padding-top: 135px;
+        &__bg {
+            width: 500px;
+        }
+    }
+    .faq {
+        padding-top: 120px;
+        &__inner-image {
+            width: 450px;
+        }
+        &__items {
+            margin-left: 60px;
+        }
+        &__item {
+            width: 645px;
+        }
+        &__item__title {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .reviews {
+        padding-top: 105px;
+        &__item-image {
+            width: 275px;
+        }
+        &__item-button {
+            top: 10px;
+            left: 10px;
+        }
+    }
+    .conditions {
+        padding: 100px 0;
+    }
+    .footer {
+        &__logo {
+            width: 270px;
+        }
+        &__inner {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__worktime {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        &__menu {
+            margin-bottom: 35px;
+        }
+        &__line {
+            margin-bottom: 15px;
+        }
+        &__address {
+            margin-bottom: 25px;
+        }
+        &__copy {
+            text-align: center;
+        }
+        &__copy-text {
+            margin-bottom: 12px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+        width: 100%;
+    }
+    .header {
+        &__logo {
+            img {
+                width: 215px;
+            }
+        }
+        &__contacts-phone {
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+    .promo {
+        min-height: 645px;
+        &__bg-left {
+            display: none;
+        }
+        &__bg-right {
+            width: 465px;
+        }
+        &__content-title {
+            font-size: 46px;
+            line-height: 54px;
+        }
+        &__content-descr {
+            font-size: 26px;
+            line-height: 32px;
+        }
+    }
+    .features {
+        padding-top: 95px;
+        &__items {
+            width: 100%;
+        }
+        &__item {
+            width: 230px;
+        }
+        &__item-title {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    .title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .subtitle {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .calc {
+        padding-top: 105px;
+        &__block {
+            max-width: 580px;
+            width: 100%;
+        }
+    }
+    .profit {
+        padding-top: 100px;
+        &__content-image {
+            width: 450px;
+        }
+        &__content-descr {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    .help {
+        padding-top: 95px;
+        &__inner-item {
+            width: 230px;
+        }
+        &__inner-descr {
+            margin-left: 10px;
+            font-size: 14px;
+        }
+    }
+    .about {
+        padding-top: 95px;
+        &__inner-descr {
+            font-size: 15px;
+        }
+    }
+    .application {
+        padding-top: 95px;
+        padding-bottom: 105px;
+    }
+    .steps {
+        &__inner {
+            max-width: 100%;
+            width: 100%;
+            justify-content: center;
+        }
+        &__item-wrap {
+            margin-left: 20px;
+        }
+        &__item-descr {
+            margin-left: 0;
+            font-size: 15px;
+        }
+    }
+    .quiz {
+        padding-top: 95px;
+        &__card {
+            width: 930px;
+            display: flex;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            background: none;
+            background-color: #fff;
+            min-height: 700px;
+            &::before {
+                width: 930px;
+                height: 700px;
+            }
+        }
+    }
+    .benefit {
+        padding-top: 110px;
+        &__inner {
+            margin-left: 0;
+        }
+        &__bg {
+            width: 440px;
+            top: 265px;
+        }
+    }
+    .faq {
+        padding-top: 100px;
+        &__inner-image {
+            width: 340px;
+        }
+        &__items {
+            margin-left: 40px;
+        }
+        &__item {
+            width: 570px;
+        }
+        &__item__title {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+    .reviews {
+        padding-top: 95px;
+        &__item-image {
+            width: 230px;
+        }
+        &__item-name {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .conditions {
+        padding: 90px 0;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+        width: 100%;
+    }
+    .top {
+        &__text {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    .header {
+        &__contacts {
+            display: none;
+        }
+    }
+    .promo {
+        min-height: 625px;
+        &__bg-right {
+            display: none;
+        }
+        &__image-absolute {
+            width: 750px;
+        }
+        &__content-title {
+            font-size: 44px;
+            line-height: 50px;
+        }
+        &__content-subtitle {
+            font-size: 42px;
+            line-height: 48px;
+        }
+        &__content-descr {
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+    .advantages {
+        &__items {
+            width: 100%;
+        }
+        &__item {
+            padding: 5px 10px 5px 15px
+        }
+        &__item-title {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        &__item-descr {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    .features {
+        padding-top: 85px;
+        &__items {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        &__item {
+            width: 45%;
+        }
+    }
+    .calc {
+        padding-top: 90px;
+        &__block {
+            width: 550px;
+        }
+        &__block-descr {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    .profit {
+        padding-top: 90px;
+        &__content-inner {
+            justify-content: space-around;
+        }
+        &__content-image {
+            display: none;
+        }
+    }
+    .title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .subtitle {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .help {
+        padding-top: 80px;
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        &__inner-item {
+            width: 45%;
+        }
+        &__subtitle {
+            margin-bottom: 45px;
+        }
+    }
+    .about {
+        padding-top: 85px;
+        &__inner {
+           display: block;
+           text-align: center;
+        }
+        &__inner-descr {
+            border-left: none;
+            order: 1;
+            margin-left: 0;
+        }
+        &__subtitle {
+            margin-bottom: 45px;
+        }
+    }
+    .application {
+        padding: 85px 0;
+    }
+    .steps {
+        &__subtitle {
+            margin-bottom: 45px;
+        }
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+    }
+    .quiz {
+        padding-top: 85px;
+        &__card {
+            width: 700px;
+            min-height: 625px;
+            &::before {
+                width: 700px;
+                height: 625px;
+            }
+        }
+        &__card-title {
+            font-size: 40px;
+            line-height: 48px;
+        }
+        &__card-descr {
+            font-size: 22px;
+            line-height: 28px;
+        }
+    }
+    .benefit {
+        padding-top: 95px;
+        &__title {
+            margin-bottom: 45px;
+        }
+        &__inner {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 65px;
+        }
+        &__box--one {
+            margin-top: 0;
+        }
+        &__box--two {
+            margin-left: 100px;
+        }
+        &__bg {
+            width: 415px;
+        }
+    }
+    .faq {
+        padding-top: 90px;
+        &__inner-image {
+            display: none;
+        }
+        &__items {
+            margin-left: 0;
+            margin: 0 auto;
+        }
+        &__item {
+            width: 630px;
+        }
+    }
+    .reviews {
+        padding-top: 85px;
+        &__subtitle {
+            margin-bottom: 45px;
+        }
+        &__inner {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        &__item {
+            width: 45%;
+        }
+        &__item-image {
+            width: 335px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+        width: 100%;
+    }
+    .top {
+        &__text {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .promo {
+        min-height: 500px;
+        &__content-title {
+            font-size: 38px;
+            line-height: 44px;
+        }
+        &__content-subtitle {
+            font-size: 38px;
+            line-height: 44px;
+        }
+        &__content-descr {
+            font-size: 22px;
+            line-height: 28px;
+        }
+        &__image-absolute {
+            width: 500px;
+        }
+    }
+    .advantages {
+        &__items {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+    .features {
+        padding-top: 80px;
+    }
+    .calc {
+        padding-top: 80px;
+        &__title {
+            display: none;
+        }
+        &__block {
+            width: 100%;
+            margin-left: 0;
+        }
+        &__title-mobile {
+            display: block;
+            text-align: center;
+            margin-bottom: 35px;
+            font-size: 32px;
+            line-height: 38px;
+        }
+        &__block-descr {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        &__offer-text {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    .profit {
+        padding-top: 80px;
+        &__content-title {
+            font-size: 14px;
+        }
+        &__content-descr {
+            margin-left: 0;
+        }
+        &__subtitle {
+            margin-bottom: 30px;
+        }
+    }
+    .help {
+        &__subtitle {
+            margin-bottom: 35px;
+        }
+    }
+    .about {
+        padding-top: 80px;
+        &__inner-descr {
+            padding: 0;
+            margin-top: 20px;
+        }
+        &__subtitle {
+            margin-bottom: 35px;
+        }
+    }
+    .application {
+        padding: 80px 0;
+        &__subtitle {
+            margin-bottom: 25px;
+        }
+    }
+    .steps {
+        &__subtitle {
+            margin-bottom: 30px;
+        }
+        &__item {
+            margin-right: 0;
+            padding-right: 10px;
+            &:first-child {
+                border-right: none;
+            }
+        }
+    }
+    .quiz {
+        padding-top: 80px;
+        &__card {
+            padding: 10px;
+            width: 520px;
+            &::before {
+                width: 520px;
+            }
+        }
+        &__card-title {
+            font-size: 34px;
+            line-height: 42px;
+            text-align: center;
+        }
+        &__card-descr {
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+        }
+        &__card-right {
+            width: 450px;
+        }
+        &__quiz-box {
+            max-width: 450px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .benefit {
+        padding-top: 85px;
+        &__title {
+            margin-bottom: 35px;
+        }
+    }
+    .faq {
+        padding-top: 80px;
+        &__title {
+            margin-bottom: 35px;
+        }
+        &__items {
+            padding-top: 0;
+        }
+        &__item {
+            width: 540px;   
+        }
+        &__item__title {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    .reviews {
+        padding-top: 80px;
+        &__subtitle {
+            margin-bottom: 35px;
+        }
+        &__item-image {
+            width: 240px;
+        }
+    }
+    .conditions {
+        padding: 80px 0;
+    }
+    .footer {
+        &__logo {
+            width: 215px;
+        }
+        &__menu-item {
+            font-size: 12px;
+            line-height: 18px;
+            margin-right: 20px;
+        }
+    }
+}

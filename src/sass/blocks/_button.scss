@@ -1,0 +1,16 @@
+.button {
+    border: none;
+    outline: none;
+    background: #FF8C0A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    transition: all .6s;
+    &:hover {
+        background: #FFC34F;
+        box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+}

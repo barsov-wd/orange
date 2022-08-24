@@ -1,0 +1,15 @@
+.conditions {
+    background-color: #efefef;
+    padding: 160px 0;
+    &__descr {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #313132;
+        font-size: 14px;
+        line-height: 17px;
+        font-family: 'Merriweather Light', sans-serif;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

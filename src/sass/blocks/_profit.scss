@@ -1,0 +1,44 @@
+.profit {
+    padding-top: 143px;
+    background-color: #efefef;
+    &__content {
+        width: 1338px;
+        margin: 0 auto;
+    }
+    &__content-inner {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 37px;
+    }
+    &__content-wrap {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    &__content-item {
+        margin-bottom: 28px;
+    }
+    &__content-title {
+        margin-left: 5px;
+    }
+    &__content-descr {
+        font-family: 'Merriweather Regular', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 20px;
+    }
+    &__content-image {
+        border-left: 1px solid #FF8C0A;
+        border-right: 1px solid #FF8C0A;
+    }
+    &__button {
+        display: block;
+        width: 492px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        margin-bottom: 35px;
+    }
+}

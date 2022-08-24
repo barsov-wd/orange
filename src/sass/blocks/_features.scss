@@ -1,0 +1,31 @@
+.features {
+    background-color: #efefef;
+    padding-top: 120px;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1060px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    &__item {
+        padding: 10px 22px;
+        width: 250px;
+        min-height: 234px;
+        background-color: rgba(#FFC34F, .5);
+        border-radius: 10px;
+        text-align: center;
+    }
+    &__item-icon {
+        margin-bottom: 10px;
+    }
+    &__item-title {
+        font-family: 'Merriweather Regular', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        color: #2f2f2f;
+        &--bold {
+            font-family: 'Merriweather Black', sans-serif;
+        }
+    }
+}
