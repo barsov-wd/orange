@@ -25,4 +25,10 @@
         font-family: 'Merriweather Regular', sans-serif;
         border-left: 1px solid #FF8C0A;
     }
+    &__items-mobile {
+        display: none;
+    }
+    &__text-mobile {
+        display: none;
+    }
 }

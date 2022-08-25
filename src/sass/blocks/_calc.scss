@@ -30,7 +30,7 @@
         font-family: 'Merriweather Black', sans-serif;
         font-size: 45px;
         line-height: 53px;
-        color: #FFC34F;
+        color: #ff8c0a;
         margin-left: 10px;
     }
     &__title {
@@ -44,6 +44,13 @@
         font-family: 'Merriweather Black', sans-serif!important;
     }
     &__title-mobile {
+        display: none;
+    }
+    &__text-mobile,
+    &__offer-mobile {
+        display: none;
+    }
+    &__mobile-wrap {
         display: none;
     }
 }
