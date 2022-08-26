@@ -10,6 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		menu.classList.toggle('header__menu_active');
 	});
 
+
 	menuItem.forEach(item => {
 		item.addEventListener('click', () => {
 			humburger.classList.toggle('humburger_active');
