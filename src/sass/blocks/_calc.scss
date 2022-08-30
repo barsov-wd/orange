@@ -1,8 +1,15 @@
 .calc {
+    position: relative;
     padding-top: 148px;
-    background: #efefef url('../img/calc/calc-bg.png') right -10px top;
+    background-color: #efefef;
     background-size: contain;
     background-repeat: no-repeat;
+    &__image-absolute {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
     &__block {
         position: relative;
         max-width: 655px;
