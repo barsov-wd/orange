@@ -198,8 +198,8 @@ window.addEventListener('DOMContentLoaded', () => {
 		} catch (e) { }
 	};
 
-	sliders('.about__inner-image-mobile');
-	sliders('.reviews__item-mobile');
+	// sliders('.about__inner-image-mobile');
+	// sliders('.reviews__item-mobile');
 
 	function accord(headers, activeClass, paddingBottom) {
 

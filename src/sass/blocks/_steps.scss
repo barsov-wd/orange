@@ -3,6 +3,9 @@
     &__subtitle {
         margin-bottom: 60px;
     }
+    &__inner-mobile {
+        display: none;
+    }
     &__inner {
         display: flex;
         width: 1040px;

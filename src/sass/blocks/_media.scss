@@ -1333,6 +1333,8 @@
         }
     }
     .profit {
+        background: #efefef url('../img/profit/profit-bg.png') center no-repeat;
+        background-size: cover;
         padding-top: 60px;
         &__subtitle {
             margin-bottom: 22px;
@@ -1389,6 +1391,7 @@
         }
     }
     .about {
+        overflow: auto;
         padding-top: 60px;
         .container {
             position: relative;
@@ -1401,8 +1404,15 @@
             line-height: 16px;
             margin-bottom: 46px;
         }
-        &__items-mobile {
+        &__items-mobile-container {
             display: block;
+            overflow: auto;
+        }
+        &__items-mobile {
+            display: flex;
+            justify-content: space-between;
+            width: 690px;
+            align-items: center;
         }
         &__inner-image-mobile {
             margin: 0 auto;
@@ -1423,6 +1433,7 @@
     .application {
         background: none;
         background: #efefef url('../img/application/application-bg-mobile.png') center no-repeat;
+        background-size: cover;
         padding-bottom: 60px;
         &__subtitle {
             margin-bottom: 20px;
@@ -1446,12 +1457,36 @@
     }
     .steps {
         &__item {
+            position: relative;
             max-width: 280px;
             width: 100%;
             border-right: none;
+            padding-left: 75px;
+            margin-bottom: 30px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__item-image {
+            position: absolute;
+            left: 0;
+            top: 0;
         }
         &__item-descr {
             font-size: 13px;
+            line-height: 16px;
+        }
+        &__inner {
+            display: none;
+        }
+        &__inner-mobile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        &__item-title {
+            margin-left: 0;
         }
     }
     .quiz {
@@ -1583,12 +1618,21 @@
         &__inner {
             display: none;
         }
+        &__inner-mobile-container {
+            display: block;
+            overflow: auto;
+        }
         &__inner-mobile {
             position: relative;
-            display: block;
-            max-width: 280px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1180px;
             margin: 0 auto;
             text-align: center;
+        }
+        &__item-mobile {
+            position: relative;
         }
         &__item-image {
             width: 278px;
@@ -1597,6 +1641,10 @@
         &__item-info {
             width: 278px;
             min-height: 60px;
+        }
+        &__item-button {
+            top: 5px;
+            left: 5px;
         }
     }
     .conditions {
@@ -1613,6 +1661,7 @@
         }
         &__inner-mobile {
             display: flex;
+            justify-content: space-between;
             padding-bottom: 29px;
             border-bottom: 1px solid #FF8C0A;
             margin-bottom: 20px;
