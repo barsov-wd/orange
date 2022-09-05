@@ -816,6 +816,7 @@
     }
     .benefit {
         padding-top: 95px;
+        background: #efefef url(../img/application/application-bg.png) center no-repeat;
         &__title {
             margin-bottom: 45px;
         }
@@ -827,12 +828,24 @@
         }
         &__box--one {
             margin-top: 0;
+            &::before {
+                top: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 110%;
+            }
         }
         &__box--two {
-            margin-left: 100px;
+            margin-left: 0;
+            &::before {
+                top: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 110%;   
+            }
         }
         &__bg {
-            width: 415px;
+            display: none;
         }
     }
     .faq {
@@ -1562,10 +1575,7 @@
             height: 272px;
             padding: 30px 4px;
             &::before {
-                width: 247px;
                 height: 265px;
-                top: 22px;
-                left: -8px;
             }
         }
         &__box--two {
@@ -1574,10 +1584,7 @@
             padding: 30px 4px;
             margin-left: 0;
             &::before {
-                width: 247px;
                 height: 265px;
-                top: 22px;
-                left: -8px;
             }
         }
         &__box-title {
